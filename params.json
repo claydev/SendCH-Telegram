@@ -1,0 +1,6 @@
+{
+  "name": "SendCH-Telegram",
+  "tagline": "Send message for channel (Telegram) using the Markdown or HTML",
+  "body": "## SendCH Telegram\r\n**Send message for channel (Telegram) using the Markdown or HTML.**\r\n\r\n## Requires\r\nBrowser and Internet :v)\r\n\r\n\r\n## Pages\r\nRun in my [Machine or Bot](https://github.com/TiagoDanin/SendCH-Telegram/wiki/RUN)\r\n\r\nProject [WebSite](http://sendch-tiagoedge.rhcloud.com/)\r\n\r\nSuggestions and Support [New Issue](https://github.com/TiagoDanin/SendCH-Telegram/issues/new)\r\n\r\n## Collaborator\r\nGualterPerinho\r\n\r\n## LICENSE\r\nCreative Commons Attribution 3.0 Unported [(CCA)](https://github.com/TiagoDanin/SendCH-Telegram/blob/master/LICENSE)\r\n\r\n---\r\n>Copyright (c) 2016 Tiago Danin",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
