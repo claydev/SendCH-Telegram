@@ -36,7 +36,7 @@
 
 		<!-- API -->
 		<?php
-			$default_chat_id = '@Channel';
+			$default_chat_id = '@ar_android';
 			$default_message = '';
 			$force_send      = false;
 			if($_GET['chat_id'] and $_GET['chat_id'] != '')
@@ -94,7 +94,7 @@
 					<div class="form-control">
 						<label for="name">Very Advanced</label>
 						Inline Keybord <input name="reply_markup" value='[[{"text":"Open Telegram","url":"https://telegram.org/"}]]' id="name" type="text">
-						Send with my Bot(token) <input name="my_token" value="1234567:ABCD-EDFGH" type="text">
+						Send with my Bot(token) <input name="my_token" value="298969682:AAHatSXlWjBUoMVzJz05k7agaYWV0DDWYCA" type="text">
 					</div>
 
 					<ul class="actions">
@@ -108,7 +108,7 @@
 					{
 						$_POST['chat_id']                  = $default_chat_id;
 						$_POST['text']                     = $default_message;
-						$_POST['my_token']                 = '1234567:ABCD-EDFGH';
+						$_POST['my_token']                 = '298969682:AAHatSXlWjBUoMVzJz05k7agaYWV0DDWYCA';
 						$_POST['disable_web_page_preview'] = '';
 						$_POST['disable_notification']     = '';
 						$_POST['parse_mode']               = 'false';
@@ -134,7 +134,7 @@
 						{
 							$error[0] = "Missing a token!";
 						}
-						if(empty($chat_id) OR $chat_id == '@Channel')
+						if(empty($chat_id) OR $chat_id == '@ar_android')
 						{
 							$error[1] = "Missing the chat id!";
 						}
@@ -144,7 +144,7 @@
 						}
 
 						// Telegram API //
-						if($custom_token != '1234567:ABCD-EDFGH')
+						if($custom_token != '298969682:AAHatSXlWjBUoMVzJz05k7agaYWV0DDWYCA')
 						{
 							$token = ''.$custom_token.'';
 						}
